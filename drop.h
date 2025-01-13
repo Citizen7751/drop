@@ -1,3 +1,6 @@
+#ifndef DROP_H
+#define DROP_H
+
 #ifdef _WIN32
     #include <windows.h>
 
@@ -22,3 +25,5 @@ typedef struct {
 } Verse;
 
 extern const Verse Bible[BIBLE_LENGTH];
+
+#endif //DROP_H
