@@ -20,7 +20,7 @@ GCC: ```gcc -o Drop *.c```\
 Clang:```clang -o Drop *.c```
 
 ### Note
-If you don't have any standalone compilers installed, but have Microsoft Visual Studio, you can copy-paste the sourcefile into a new C/C++ project and execute it that way.
+If you don't have any standalone compilers installed, but have Microsoft Visual Studio, you can copy-paste the sourcefiles into a new C/C++ project and compile them that way.
 
 ## License
 This software is under the MIT License.
