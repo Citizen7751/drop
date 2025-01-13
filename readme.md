@@ -12,12 +12,12 @@ Upon opening, the user is greeted with a random verse. Hitting ```Enter``` bring
 **Requirements:** [GCC](https://gcc.gnu.org/) or [Clang](https://clang.llvm.org/) (or any other C compiler)
 
 ### Building on Windows:
-GCC: ```gcc -o Drop.exe drop.c```\
-Clang:```clang -o Drop.exe drop.c```
+GCC: ```gcc -o Drop.exe *.c```\
+Clang:```clang -o Drop.exe *.c```
 
 ### Building on Linux:
-GCC: ```gcc -o Drop drop.c```\
-Clang:```clang -o Drop drop.c```
+GCC: ```gcc -o Drop *.c```\
+Clang:```clang -o Drop *.c```
 
 ### Note
 If you don't have any standalone compilers installed, but have Microsoft Visual Studio, you can copy-paste the sourcefile into a new C/C++ project and execute it that way.
