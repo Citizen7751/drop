@@ -19,6 +19,13 @@
 #define PRINTING_LENGTH 60 //can be customised
 #define BIBLE_LENGTH 31102
 
+#include <stdint.h>
+
+typedef struct {
+	struct ansi { uint8_t bg, fg; } ansi;
+    struct rgb { uint8_t bgr, bgg, bgb, fgr, fgg, fgb; } rgb;
+} color_t;
+
 typedef struct {
     char title[PRINTING_LENGTH];
     char text[551];
