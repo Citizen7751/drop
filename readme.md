@@ -1,3 +1,9 @@
+**TODO:**
+- build system with cmake
+- packaging & tagging
+
+---
+---
 # Drop - Random Bible Verses
 
 This program just prints out random verses from the KJV Bible in the commandline.
